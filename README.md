@@ -1,4 +1,4 @@
-# Image Processing Handbook
+# Beginner's Guide to Image Processing
 
 Welcome to the Image Processing Handbook! This repository contains a comprehensive collection of image processing techniques and code examples in Python. 
 Each section includes detailed explanations and sample images to help you understand and apply these techniques.
