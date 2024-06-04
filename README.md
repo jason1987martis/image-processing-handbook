@@ -64,7 +64,7 @@ This handbook is designed to provide a clear and concise reference for various i
 - **Description**: Segment an image by converting it to a binary image based on a threshold value.
 
 ### Watershed Algorithm
-- **Python**: [watershed.py](segmentation/watershedding.py)
+- **Python**: [watershed.py](segementation/watershedding.py)
 - **Description**: Use the watershed algorithm to segment an image based on the topology of its intensity values.
 
 ## Morphological Operations
