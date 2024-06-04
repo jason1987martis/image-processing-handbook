@@ -34,7 +34,7 @@ This handbook is designed to provide a clear and concise reference for various i
 - **Description**: Adjust the contrast of an image using different methods like histogram equalization.
 
 ### Brightness Adjustment
-- **Python**: [brightness_adjustment.py](basic_operations/brightness_adjustment.py
+- **Python**: [brightness_adjustment.py](basic_operations/brightness_adjustment.py)
 - **Description**: Change the brightness of an image by adding a constant value to the pixel values.
 
 ## Filters
