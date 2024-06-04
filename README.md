@@ -8,6 +8,14 @@ Welcome to the Image Processing Handbook! This repository contains a comprehensi
 2. [Basic Operations](#basic-operations)
    - [Contrast Adjustment](#contrast-adjustment)
    - [Brightness Adjustment](#brightness-adjustment)
+   - [Grayscale Conversion](#grayscale-conversion)
+   - [Rotating](#rotating)
+   - [Cropping](#cropping)
+   - [Flipping](#flipping)
+   - [Blurring](#blurring)
+   - [Translation (Shifting)](#translation-shifting)
+   - [Histogram Equalization](#histogram-equalization)
+   - [Inversion](#inversion)
 3. [Filters](#filters)
    - [Gaussian Blur](#gaussian-blur)
    - [Median Filter](#median-filter)
@@ -16,10 +24,12 @@ Welcome to the Image Processing Handbook! This repository contains a comprehensi
    - [Sobel Edge Detection](#sobel-edge-detection)
 5. [Segmentation](#segmentation)
    - [Thresholding](#thresholding)
+   - [Adaptive Thresholding](#adaptive-thresholding)
    - [Watershed Algorithm](#watershed-algorithm)
 6. [Morphological Operations](#morphological-operations)
    - [Dilation](#dilation)
    - [Erosion](#erosion)
+   - [Applying Color Map](#applying-color-map)
 7. [Contributing](#contributing)
 8. [License](#license)
 
@@ -36,6 +46,38 @@ This handbook is designed to provide a clear and concise reference for various i
 ### Brightness Adjustment
 - **Python**: [brightness_adjustment.py](basic_operations/brightness_adjustment.py)
 - **Description**: Change the brightness of an image by adding a constant value to the pixel values.
+
+### Resizing
+- **Python**: [resize.py](basic_operations/resize.py)
+- **Description**: Resize an image to the specified width and height.
+
+### Grayscale Conversion
+- **Python**: [grayscale.py](basic_operations/gray.py)
+- **Description**: Convert a color image to a grayscale image.
+
+### Rotating
+- **Python**: [rotate.py](basic_operations/rotate/rotate.py)
+- **Description**: Rotate an image by a specified angle.
+
+### Cropping
+- **Python**: [crop.py](basic_operations/crop.py)
+- **Description**: Crop a specified region from an image.
+
+### Flipping
+- **Python**: [flip.py](basic_operations/flip.py)
+- **Description**: Flip an image horizontally, vertically, or both.
+
+### Translation (Shifting)
+- **Python**: [translate.py](basic_operations/shifting.py)
+- **Description**: Shift an image along the x and y axes.
+
+### Histogram Equalization
+- **Python**: [histogram_equalization.py](basic_operations/histogramequalize.py)
+- **Description**: Improve the contrast of an image by equalizing its histogram.
+
+### Inversion
+- **Python**: [invert.py](basic_operations/inversion.py)
+- **Description**: Invert the colors of an image.
 
 ## Filters
 
@@ -63,9 +105,17 @@ This handbook is designed to provide a clear and concise reference for various i
 - **Python**: [thresholding.py](segementation/thresholding.py)
 - **Description**: Segment an image by converting it to a binary image based on a threshold value.
 
+### Adaptive Thresholding
+- **Python**: [adaptive_thresholding.py](segementation/adaptive.py)
+- **Description**: Segment an image using adaptive thresholding methods like adaptive mean and adaptive Gaussian.
+
 ### Watershed Algorithm
 - **Python**: [watershed.py](segementation/watershedding.py)
 - **Description**: Use the watershed algorithm to segment an image based on the topology of its intensity values.
+
+### Applying Color Map
+- **Python**: [apply_colormap.py](segementation/mapping.py)
+- **Description**: Apply a color map to a grayscale image for visualization.
 
 ## Morphological Operations
 
