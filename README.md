@@ -7,16 +7,21 @@ Each section includes detailed explanations and sample images to help you unders
 
 ### OpenCV
 - **Description**: OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library. It includes several hundreds of computer vision algorithms. OpenCV supports a wide variety of programming languages such as C++, Python, Java, and MATLAB and is widely used for real-time computer vision applications.
+  
 - **Installation**: You can install OpenCV for Python using pip:
-
 ```pip install opencv-python```
 
 ### NumPy
 - **Description**: NumPy is a powerful library for numerical computing in Python. It provides support for arrays, matrices, and many mathematical functions to operate on these data structures. NumPy is often used in image processing for manipulating image data as arrays.
+  
 - **Installation**: You can install NumPy using pip:
-
  ```pip install numpy```
    
+### Matplotlib
+- **Description**: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is widely used for plotting and visualizing data, including image data, which makes it a valuable tool in image processing for displaying images and their transformations.
+
+- **Installation**: You can install Matplotlib using pip:
+```pip install matplotlib```
 
 ## Table of Contents
 
