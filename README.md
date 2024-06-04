@@ -1,6 +1,6 @@
 # Image Processing Handbook
 
-Welcome to the Image Processing Handbook! This repository contains a comprehensive collection of image processing techniques and code examples in various programming languages such as Python and MATLAB. Each section includes detailed explanations and sample images to help you understand and apply these techniques.
+Welcome to the Image Processing Handbook! This repository contains a comprehensive collection of image processing techniques and code examples in various programming languages such as Python. Each section includes detailed explanations and sample images to help you understand and apply these techniques.
 
 ## Table of Contents
 
