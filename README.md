@@ -30,51 +30,51 @@ This handbook is designed to provide a clear and concise reference for various i
 ## Basic Operations
 
 ### Contrast Adjustment
-- **Python**: [contrast_adjustment.py](basic_operations/contrast_adjustment.py)
+- **Python**: [contrast_adjustment.py](basic_operations/brightness_adjustment.py)
 - **Description**: Adjust the contrast of an image using different methods like histogram equalization.
 
 ### Brightness Adjustment
-- **Python**: [brightness_adjustment.py](basic_operations/brightness_adjustment.py)
+- **Python**: [brightness_adjustment.py](basic_operations/brightness_adjustment.py
 - **Description**: Change the brightness of an image by adding a constant value to the pixel values.
 
 ## Filters
 
 ### Gaussian Blur
-- **Python**: [gaussian_blur.py](filters/gaussian_blur/gaussian_blur.py)
+- **Python**: [gaussian_blur.py](filters/gaussian_blur.py)
 - **Description**: Apply a Gaussian blur to an image to reduce noise and detail.
 
 ### Median Filter
-- **Python**: [median_filter.py](filters/median_filter/median_filter.py)
+- **Python**: [median_filter.py](filters/median_filter.py)
 - **Description**: Use a median filter to reduce noise in an image by replacing each pixel with the median value of its neighborhood.
 
 ## Edge Detection
 
 ### Canny Edge Detection
-- **Python**: [canny_edge.py](edge_detection/canny_edge/canny_edge.py)
+- **Python**: [canny_edge.py](edge_detection/cannyedge.py)
 - **Description**: Detect edges in an image using the Canny edge detection algorithm.
 
 ### Sobel Edge Detection
-- **Python**: [sobel_edge.py](edge_detection/sobel_edge/sobel_edge.py)
+- **Python**: [sobel_edge.py](edge_detection/sobel.py)
 - **Description**: Apply the Sobel operator to find edges in an image by calculating the gradient magnitude.
 
 ## Segmentation
 
 ### Thresholding
-- **Python**: [thresholding.py](segmentation/thresholding/thresholding.py)
+- **Python**: [thresholding.py](segmentation/thresholding.py)
 - **Description**: Segment an image by converting it to a binary image based on a threshold value.
 
 ### Watershed Algorithm
-- **Python**: [watershed.py](segmentation/watershed/watershed.py)
+- **Python**: [watershed.py](segmentation/watershedding.py)
 - **Description**: Use the watershed algorithm to segment an image based on the topology of its intensity values.
 
 ## Morphological Operations
 
 ### Dilation
-- **Python**: [dilation.py](morphological_operations/dilation/dilation.py)
+- **Python**: [dilation.py](morphological_operations/dilation.py)
 - **Description**: Apply dilation to an image to increase the size of the foreground objects.
 
 ### Erosion
-- **Python**: [erosion.py](morphological_operations/erosion/erosion.py)
+- **Python**: [erosion.py](morphological_operations/erosion.py)
 - **Description**: Apply erosion to an image to decrease the size of the foreground objects.
 
 
