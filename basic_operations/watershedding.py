@@ -35,7 +35,7 @@ def apply_watershed(image_path):
     image[markers == -1] = [255, 0, 0]
 
     return image
-
+    
 image_path = 'path_to_your_image.jpg'
 
 watershed_image = apply_watershed(image_path)
