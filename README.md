@@ -60,7 +60,7 @@ This handbook is designed to provide a clear and concise reference for various i
 ## Segmentation
 
 ### Thresholding
-- **Python**: [thresholding.py](segmentation/thresholding.py)
+- **Python**: [thresholding.py](segementation/thresholding.py)
 - **Description**: Segment an image by converting it to a binary image based on a threshold value.
 
 ### Watershed Algorithm
