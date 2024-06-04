@@ -51,8 +51,7 @@ Each section includes detailed explanations and sample images to help you unders
    - [Dilation](#dilation)
    - [Erosion](#erosion)
    - [Applying Color Map](#applying-color-map)
-7. [Contributing](#contributing)
-8. [License](#license)
+
 
 ## Introduction
 
